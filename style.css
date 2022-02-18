@@ -88,3 +88,32 @@ body {
   font-size: 14px;
   padding: 5px;
 }
+
+hr {
+  margin-top: 1.5rem;
+  opacity: 0.5;
+}
+
+.info-container {
+  display: inline-flex;
+  flex-direction: row;
+  width: inherit;
+  text-align: center;
+  justify-items: center;
+  gap: 2rem;
+  justify-content: space-evenly;
+  padding: 1.5rem;
+  line-height: 20px;
+}
+
+.info-container h3 {
+  font-size: 18px;
+  color: var(--very-dark-blue);
+  font-weight: 700;
+}
+
+.info-container p {
+  font-size: 10px;
+  color: var(--grayish-blue);
+  letter-spacing: 2px;
+}
